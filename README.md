@@ -26,6 +26,23 @@ etc : Gemini API, JUnit4 <br>
   <img src="./images/good_thinking_4.gif" width="24%">
 </p>
 
+## 📊 플로우 차트
+
+Gemini API를 사용하여 명언을 검색하거나 AI 채팅 서비스를 이용할 수 있습니다.
+생성된 명언(혹은 작성한 명언)은 내부 데이터베이스(Room)에 저장하여 CRUD 할 수 있습니다.
+
+```mermaid
+flowchart TD
+    A[사용자] --> B[검색 요청]
+    B --> C[Gemini API]
+    C --> D[ChatMessage 생성]
+    D --> E[채팅 화면 출력]
+
+    A --> F[좋아요/저장]
+    F --> G[GoodWord 저장 (내부 DB)]
+    G --> H[저장된 명언 조회 화면]
+```
+
 ## 👀 개발 과정에서 발생한 이슈
 
 ### 1. 테스트 코드 작성
