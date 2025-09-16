@@ -11,6 +11,7 @@ Language : Kotlin <br>
 View : Compose <br>
 AndroidX : Room, ViewModel, Hilt, AndroidX-Flow-Lifecycle <br>
 Kotlin : Coroutine, StateFlow <br>
+상태 관리 : StateFlow, ViewModel <br>
 etc : Gemini API, JUnit4 <br>
 
 ## ✨ 주요 기능
